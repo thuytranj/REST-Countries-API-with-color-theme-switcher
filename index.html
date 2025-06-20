@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <header>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+        <link rel='stylesheet'
+            href='https://cdn-uicons.flaticon.com/3.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+        <title>Frontend Mentor | Rest countries API</title>
+    </header>
+    <body>
+			<div class="header">
+					<h2>Where in the world ?</h2>
+					<div class="theme-zone">
+							<img src="dark-icon.png" id="theme-icon">
+							<p id="theme">Dark Mode</p>
+					</div>
+			</div>
+
+			<div class="main">
+					<div class="search-zone">
+							<div class="search-box">
+									<i class="fi fi-rr-search"></i>
+									<input type="text" placeholder="Search for a country ..." id="search-country">
+							</div>
+
+							<div class="select-menu">
+									<div class="select-btn">
+											<p>Filter by Region</p>
+											<i class="fi fi-sr-angle-small-down" style="color: #777;"></i>
+									</div>
+
+									<ul class="options">
+										<li class="option">
+											<p>Africa</p>
+										</li>
+
+										<li class="option">
+											<p>Americas</p>
+										</li>
+
+										<li class="option">
+											<p>Asia</p>
+										</li>
+
+										<li class="option">
+											<p>Europe</p>
+										</li>
+
+										<li class="option">
+											<p>Oceania</p>
+										</li>
+									</ul>
+							</div>
+					</div>
+
+					<div class="countries"></div>
+					
+					<div class="details hidden"></div>
+			</div>
+
+			<script type="module" src="main.js"></script>
+    </body>
+</html>
