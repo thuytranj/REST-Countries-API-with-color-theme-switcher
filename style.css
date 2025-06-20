@@ -279,3 +279,58 @@ body.dark {
 .back-btn.dark:hover, .search-box.dark:hover, .select-btn.dark:hover, .border-country.dark:hover {
     border-color: #ffffff;
 }
+
+@media (max-width: 1000px) {
+    .main {
+        padding: 1rem;
+    }
+    .country {
+        width: calc((100% - 2rem) / 2);
+    }
+    .search-box, .select-btn {
+        padding: 0.5rem;
+    }
+    .theme-zone {
+        width: 20%;
+    }
+    .select-menu {
+        width: 20%;
+    }
+    .header {
+        padding: 1.5rem;
+    }
+}
+@media (max-width: 768px) {
+    h2 {
+        font-size: 1rem;
+    }
+    .theme-zone {
+        width: 40%;
+    }
+    .country {
+        width: 100%;
+    }
+    .search-box, .select-btn {
+        padding: 0.5rem;
+    }
+    .search-zone {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 1rem;
+    }
+    .search-box {
+        width: 100%;
+    }
+    .select-menu {
+        width: 50%;
+    }
+    .details {
+        padding: 1rem;
+    }
+    .country-detail, .info {
+        flex-direction: column;
+    }
+    .country-detail img, .country-info-detail {
+        width: 100%;
+    }
+}
